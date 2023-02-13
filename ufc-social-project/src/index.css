@@ -1,0 +1,53 @@
+.header, .fighter-container, .fighter-page {
+  min-width: 1000px;
+}
+
+.header {
+  height: 200px;
+  border-bottom: 12px red ridge;
+  overflow: hidden;
+}
+
+.header img, .nav-btn {
+  margin: 50px 50px 0 0;
+  max-height: 100px;
+}
+
+.nav-btn {
+  margin-left: 25px;
+}
+
+#form-title {
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.fighter-card {
+  text-align: center;
+}
+
+#card-title {
+  border-bottom: 2px rgba(0, 0, 0, 0.5) ridge;
+  padding: 0 5px;
+}
+
+.fighter-title {
+  text-align: left;
+  display: inline-grid;
+  width: max-content;
+  margin-top: 50px;
+}
+
+.fighter-details {
+  text-align: left;
+  display: inline-grid;
+  width: 50%;
+}
+
+#root > div > div.ui.comments > h3 {
+  height: max-content;
+}

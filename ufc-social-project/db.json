@@ -1,0 +1,116 @@
+{
+  "fighters": [
+    {
+      "name": "KHABIB NURMAGOMEDOV",
+      "id": 1,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2611557.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "LIGHTWEIGHT",
+      "description": {
+        "style": "SAMBO",
+        "stance": "ORTHODOX",
+        "height": "5' 10\"",
+        "nickname": "THE EAGLE"
+      },
+      "comments": [
+        {
+          "author": "Robert",
+          "comment": "\nCOMMENT"
+        }
+      ]
+    },
+    {
+      "name": "CHARLES OLIVEIRA",
+      "id": 2,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "LIGHTWEIGHT",
+      "description": {
+        "style": "BRAZILLIAN JIU JITSU",
+        "stance": "ORTHODOX",
+        "height": "5' 11\"",
+        "nickname": "DO BRONX"
+      },
+      "comments": []
+    },
+    {
+      "name": "KAMARU USMAN",
+      "id": 3,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3088812.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "WELTERWEIGHT",
+      "description": {
+        "style": "WRESTLING, STRIKER",
+        "stance": "SWITCH",
+        "height": "6' 0\"",
+        "nickname": "THE NIGERIAN NIGHTMARE"
+      },
+      "comments": []
+    },
+    {
+      "name": "MAX HOLLOWAY",
+      "id": 4,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2614933.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "FEATHERWEIGHT",
+      "description": {
+        "style": "STRIKER",
+        "stance": "ORTH",
+        "height": "5' 11\"",
+        "nickname": "BLESSED"
+      },
+      "comments": []
+    },
+    {
+      "name": "ISLAM MAKHACHEV",
+      "id": 5,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "LIGHTWEIGHT",
+      "description": {
+        "style": "SAMBO",
+        "stance": "SOUTHPAW",
+        "height": "5' 10\"",
+        "nickname": "N/A"
+      },
+      "comments": []
+    },
+    {
+      "name": "ALEXANDER VOLKANOVSKI",
+      "id": 6,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3949584.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "FEATHERWEIGHT",
+      "description": {
+        "style": "STRIKER",
+        "stance": "ORTHODOX",
+        "height": "5' 6\"",
+        "nickname": "THE GREAT"
+      },
+      "comments": []
+    },
+    {
+      "name": "ISRAEL ADESANYA",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4285679.png&w=350&h=254",
+      "reign": "TITLE REIGN",
+      "division": "MIDDLE WEIGHT ",
+      "description": {
+        "style": "STRIKER",
+        "stance": "SWITCH",
+        "height": "6' 4\"",
+        "nickname": "THE LAST STYLE BENDER"
+      },
+      "comments": [
+        {
+          "author": "Chris",
+          "comment": "This is a comment"
+        },
+        {
+          "author": "Robert",
+          "comment": "\nCommentCommentComment"
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
