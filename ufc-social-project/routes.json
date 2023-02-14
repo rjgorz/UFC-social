@@ -1,0 +1,4 @@
+{
+    "/fighters/:id": "/fighters/:id?_embed=articles"
+}
+  

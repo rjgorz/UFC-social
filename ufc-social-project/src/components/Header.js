@@ -11,7 +11,7 @@ function Header() {
                 <Button className="nav-btn">UFC CHAMPIONS</Button>
             </NavLink>
             <NavLink to="/form">
-                <Button className="nav-btn">ADD A FIGHTER</Button>
+                <Button className="nav-btn">ADD CHAMPION</Button>
             </NavLink>
         </div>
     );

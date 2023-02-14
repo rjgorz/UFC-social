@@ -4,11 +4,16 @@ import { Comment, Header, Form, Button } from 'semantic-ui-react';
 function Comments({ comments, author, comment, handleChanges, handleComment }) {
 
     const commentsList = comments.map((commentObj, i) => {
-        const { author, comment } = commentObj;
+        const { author, comment, timestamp } = commentObj;
         return (
             <Comment key={i}>
                 <Comment.Content>
                     <Comment.Author as="a">{author}</Comment.Author>
+                    <Comment.Metadata>
+                        <p>
+                            <em>{timestamp}</em>
+                        </p>
+                    </Comment.Metadata>
                     <Comment.Text>{comment}</Comment.Text>
                 </Comment.Content>
             </Comment>
@@ -21,6 +26,7 @@ function Comments({ comments, author, comment, handleChanges, handleComment }) {
                 Comments
             </Header>
             {commentsList}
+            <br />
             <Form onSubmit={handleComment}>
                 <Form.Field>
                     <label>Name: </label>
@@ -44,7 +50,7 @@ function Comments({ comments, author, comment, handleChanges, handleComment }) {
                         value={comment}
                     />
                 </Form.Field>
-                <Button type='submit' content='Comment' labelPosition='left' icon='plus' primary />
+                <Button id='comment-btn' type='submit' color='red' content='Comment' labelPosition='left' icon='plus' primary disabled={author==="" || comment==="" ? true : false} />
             </Form>
         </Comment.Group>
     );

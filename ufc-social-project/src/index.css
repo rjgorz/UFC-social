@@ -17,6 +17,14 @@
   margin-left: 25px;
 }
 
+.search-sort {
+  text-align: center;
+}
+
+.fighter-btn {
+  width: 100%;
+}
+
 #form-title {
   margin-top: 20px;
 }
@@ -35,6 +43,10 @@
   padding: 0 5px;
 }
 
+#root > div > section > div.fighter-title > a {
+  width: max-content;
+}
+
 .fighter-title {
   text-align: left;
   display: inline-grid;
@@ -50,4 +62,20 @@
 
 #root > div > div.ui.comments > h3 {
   height: max-content;
+}
+
+.page-number-container {
+  margin: 25px 0;
+  text-align: center;
+}
+
+#comment-btn {
+  background-color: red !important;
+  border: 2px white solid !important;
+}
+
+#comment-btn:hover {
+  background-color: white !important;
+  border: 2px red solid !important;
+  color: red !important;
 }
