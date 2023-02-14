@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from "react-router-dom";
 import { Form, Button } from "semantic-ui-react";
 
 function FighterForm ({handleNewFighter}) {
@@ -12,6 +13,8 @@ function FighterForm ({handleNewFighter}) {
         height: "",
         nickname: "",
     }
+
+    const history = useHistory();
 
     const [input, setInput] = useState(initialInput);
     
@@ -47,6 +50,7 @@ function FighterForm ({handleNewFighter}) {
         .then(fighter => {
             handleNewFighter(fighter);
             setInput(initialInput);
+            history.push("/");
         });
     }
     

@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Comments from './Comments';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 function FighterPage() {
     const initialInput = {
         author: "",
         comment: "",
     }
+
+    const history = useHistory();
 
     const [fighter, setFighter] = useState(null);
     const [fighterComments, setFighterComments] = useState([]);
@@ -21,14 +23,14 @@ function FighterPage() {
                 setFighter(fighter);
                 setFighterComments(fighter.comments);
             });
-    }, [fighterComments]);
+    }, []);
 
     if (fighter) {
         const { name, image, division, reign, description, comments } = fighter;
         const { style, stance, height, nickname } = description;
 
         function handleChanges(e) {
-            setInput({...input, [e.target.name]: e.target.value });
+            setInput({ ...input, [e.target.name]: e.target.value });
         }
 
         function handleComment(e) {
@@ -46,12 +48,11 @@ function FighterPage() {
                     comments: [...comments, newComment]
                 })
             })
-            .then(r => r.json())
-            .then(newComment => {
-                setFighterComments([...fighterComments, newComment]);
-                setInput(initialInput);
-                console.log(fighterComments);
-            });
+                .then(r => r.json())
+                .then(fighter => {
+                    setFighterComments(fighter.comments);
+                    setInput(initialInput);
+                });
         }
 
         return (

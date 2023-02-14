@@ -16,6 +16,42 @@
         {
           "author": "Robert",
           "comment": "\nCOMMENT"
+        },
+        {
+          "author": "Nate",
+          "comment": "TEST"
+        },
+        {
+          "author": "Areeb",
+          "comment": "tredag"
+        },
+        {
+          "author": "Ayah",
+          "comment": "this is a comment"
+        },
+        {
+          "author": "Areeb",
+          "comment": "fdsafda"
+        },
+        {
+          "author": "Robert",
+          "comment": "qwerty"
+        },
+        {
+          "author": "Nate",
+          "comment": "fdsa dfsa f"
+        },
+        {
+          "author": " hgtrfs  hs",
+          "comment": " hgfs h"
+        },
+        {
+          "author": "Ayah",
+          "comment": "hgfsh "
+        },
+        {
+          "author": "Justin",
+          "comment": "hgfdhgfdhgfdhgdf"
         }
       ]
     },
@@ -31,7 +67,20 @@
         "height": "5' 11\"",
         "nickname": "DO BRONX"
       },
-      "comments": []
+      "comments": [
+        {
+          "author": "Robert",
+          "comment": "TEST"
+        },
+        {
+          "author": "Justin",
+          "comment": "test"
+        },
+        {
+          "author": "Robert",
+          "comment": "Comment"
+        }
+      ]
     },
     {
       "name": "KAMARU USMAN",
