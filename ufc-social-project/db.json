@@ -5,12 +5,15 @@
       "id": 1,
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2611557.png&w=350&h=254",
       "reign": "APR 7, 2018 - OCT 24, 2020",
-      "division": "HEAVYWEIGHT",
+      "division": "LIGHTWEIGHT",
+      "highlights": "https://www.youtube.com/embed/H78P-eAvWqg?autoplay=1",
       "description": {
         "style": "SAMBO",
         "stance": "ORTHODOX",
         "height": "5' 10\"",
-        "nickname": "THE EAGLE"
+        "nickname": "THE EAGLE",
+        "record": "29-0-0",
+        "defences": "3"
       },
       "comments": [
         {
@@ -32,13 +35,9 @@
           "author": "Robert",
           "comment": "I rule all.",
           "timestamp": "1/14/2023 at 2:35PM"
-        },
-        {
-          "author": "Justin",
-          "comment": "COMMENT",
-          "timestamp": "2/14/2023 at 3:07PM"
         }
-      ]
+      ],
+      "likes": 9
     },
     {
       "name": "CHARLES OLIVEIRA",
@@ -46,13 +45,23 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504169.png&w=350&h=254",
       "reign": "MAY 15, 2021 - MAY 7, 2022",
       "division": "LIGHTWEIGHT",
+      "highlights": "https://www.youtube.com/embed/yTNsvQb13iU?autoplay=1",
       "description": {
         "style": "BRAZILLIAN JIU JITSU",
         "stance": "ORTHODOX",
         "height": "5' 11\"",
-        "nickname": "DO BRONX"
+        "nickname": "DO BRONX",
+        "record": "33-9-0",
+        "defences": "1"
       },
-      "comments": []
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "The GOAT",
+          "timestamp": "2/16/2023 at 9:23AM"
+        }
+      ],
+      "likes": 4
     },
     {
       "name": "KAMARU USMAN",
@@ -60,13 +69,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3088812.png&w=350&h=254",
       "reign": "MAY 2, 2019 - AUG 20, 2022",
       "division": "WELTERWEIGHT",
+      "highlights": "https://www.youtube.com/embed/dIxsCmQoiFo?autoplay=1",
       "description": {
         "style": "WRESTLING, STRIKER",
         "stance": "SWITCH",
         "height": "6' 0\"",
-        "nickname": "THE NIGERIAN NIGHTMARE"
+        "nickname": "THE NIGERIAN NIGHTMARE",
+        "record": "20-2-0",
+        "defences": "5"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "MAX HOLLOWAY",
@@ -74,13 +87,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2614933.png&w=350&h=254",
       "reign": "DEC 10, 2016 - DEC 14, 2019",
       "division": "FEATHERWEIGHT",
+      "highlights": "https://www.youtube.com/embed/DPRgp2dR444?autoplay=1",
       "description": {
         "style": "STRIKER",
-        "stance": "ORTH",
+        "stance": "ORTHODOX",
         "height": "5' 11\"",
-        "nickname": "BLESSED"
+        "nickname": "BLESSED",
+        "record": "23-7-0",
+        "defences": "3"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ISLAM MAKHACHEV",
@@ -88,13 +105,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=350&h=254",
       "reign": "OCT 22, 2022 - PRESENT",
       "division": "LIGHTWEIGHT",
+      "highlights": "https://www.youtube.com/embed/GmE2h4dTWGw?autoplay=1",
       "description": {
         "style": "SAMBO",
         "stance": "SOUTHPAW",
         "height": "5' 10\"",
-        "nickname": "N/A"
+        "nickname": "N/A",
+        "record": "24-1-0",
+        "defences": "1"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ALEXANDER VOLKANOVSKI",
@@ -102,26 +123,34 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3949584.png&w=350&h=254",
       "reign": "DEC 14, 2019 - PRESENT",
       "division": "FEATHERWEIGHT",
+      "highlights": "https://www.youtube.com/embed/kA08iW7MOQk?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "5' 6\"",
-        "nickname": "THE GREAT"
+        "nickname": "THE GREAT",
+        "record": "25-2-0",
+        "defences": "4"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ISRAEL ADESANYA",
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4285679.png&w=350&h=254",
       "reign": "APR 13, 2019 - NOV 12, 2022",
       "division": "MIDDLE WEIGHT ",
+      "highlights": "https://www.youtube.com/embed/bTVhoPGv3zs?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "SWITCH",
         "height": "6' 4\"",
-        "nickname": "THE LAST STYLE BENDER"
+        "nickname": "THE LAST STYLE BENDER",
+        "record": "23-2-0",
+        "defences": "7"
       },
       "comments": [],
+      "likes": 0,
       "id": 7
     },
     {
@@ -130,13 +159,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2554705.png&w=350&h=254",
       "reign": "DEC 18, 2018 - PRESENT",
       "division": "WOMEN'S FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/EHwWO0kWkg0?autoplay=1",
       "description": {
         "style": "MUAY THAI",
         "stance": "SOUTHPAW",
         "height": "5'5\"",
-        "nickname": "BULLET"
+        "nickname": "BULLET",
+        "record": "23-3-0",
+        "defences": "8"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "AMANDA NUNES ",
@@ -144,13 +177,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2516131.png&w=350&h=254",
       "reign": "DEC 18, 2018 - DEC 11, 2021 AND JUL 30 2022 - PRESENT",
       "division": "WOMEN'S BANTAMWEIGHT",
+      "highlights": "https://www.youtube.com/embed/CEA7fasR4pg?autoplay=1",
       "description": {
         "style": "BRAZILLIAN JIU JITSU",
         "stance": "ORTHODOX",
         "height": "5'8\"",
-        "nickname": "THE LIONESS"
+        "nickname": "THE LIONESS",
+        "record": "22-5-0",
+        "defences": "9"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "JAMAHAL HILL",
@@ -158,13 +195,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4425355.png&w=350&h=254",
       "reign": "JAN 21, 2023 - PRESENT",
       "division": "LIGHT HEAVYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/Q3kxeOlQACk?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "SOUTHPAW",
         "height": "6'4\"",
-        "nickname": "SWEET DREAMS"
+        "nickname": "SWEET DREAMS",
+        "record": "12-1-0",
+        "defences": "0"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ROSE NAMAJUNAS",
@@ -172,13 +213,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3032973.png&w=350&h=254",
       "reign": "NOV 4, 2017 - MAY 11, 2019 AND APR 24, 2021 - MAY 7, 2022 ",
       "division": "WOMEN'S STRAWWEIGHT",
+      "highlights": "https://www.youtube.com/embed/JP8OKKOlPBA?autoplay=1",
       "description": {
         "style": "BRAZILLIAN JIU JITSU, MIXED MARTIAL ARTS",
         "stance": "ORTHODOX",
         "height": "5'5\"",
-        "nickname": "THUG"
+        "nickname": "THUG",
+        "record": "12-5-0",
+        "defences": "3"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "CONNOR MCGREGOR",
@@ -186,13 +231,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3022677.png&w=350&h=254",
       "reign": "JUL 11  2015 - NOV 12, 2016",
       "division": "LIGHTWEIGHT",
+      "highlights": "https://www.youtube.com/embed/hPiw27AQYh0?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "SOUTHPAW",
         "height": "5'9\"",
-        "nickname": "THE NOTORIOUS"
+        "nickname": "THE NOTORIOUS",
+        "record": "22-6-0",
+        "defences": "0"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "JON JONES",
@@ -200,13 +249,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335639.png&w=350&h=254",
       "reign": "MAR 19, 2011 - APR 2016 AND DEC 29, 2018 - AUG 2020 ",
       "division": "LIGHT HEAVYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/xEMf_XkSNFA?autoplay=1",
       "description": {
         "style": "WRESTLING, STRIKER, MUAY THAI",
         "stance": "ORTHODOX",
         "height": "6'4\"",
-        "nickname": "BONES"
+        "nickname": "BONES",
+        "record": "26-1-0",
+        "defences": "14"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "DANIEL CORMIER",
@@ -214,13 +267,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2509290.png&w=350&h=254",
       "reign": "MAY 23, 2015 - AUG 17, 2019",
       "division": "LIGHT HEAVYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/SCaLh4OhEs0?autoplay=1",
       "description": {
         "style": "WRESTLING",
         "stance": "ORTHODOX",
         "height": "5'11\"",
-        "nickname": "DC"
+        "nickname": "DC",
+        "record": "22-3-0",
+        "defences": "6"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "DEMETRIUS JOHNSON",
@@ -228,13 +285,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2512089.png&w=350&h=254",
       "reign": "SEP 22, 2012 - AUG 4, 2018",
       "division": "FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/dIZAJ7QC7U0?autoplay=1",
       "description": {
         "style": "BRAZILLIAN JIU JITSU",
         "stance": "ORTHODOX",
         "height": "5'3\"",
-        "nickname": "MIGHTY MOUSE"
+        "nickname": "MIGHTY MOUSE",
+        "record": "31-4-1",
+        "defences": "10"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ANDERSON SILVA",
@@ -242,13 +303,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335447.png&w=350&h=254",
       "reign": "OCT 14, 2006 - JUL 6, 2013",
       "division": "MIDDLEWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/cMoVYxbaHMw?autoplay=1",
       "description": {
         "style": "MUAY THAI, STRIKER",
         "stance": "SOUTHPAW",
         "height": "6'2\"",
-        "nickname": "THE SPIDER"
+        "nickname": "THE SPIDER",
+        "record": "34-11-0",
+        "defences": "10"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "MICHAEL BISPING",
@@ -256,13 +321,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335602.png&w=350&h=254",
       "reign": " JUN 04, 2016 - NOV 04, 2017",
       "division": "MIDDLEWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/BajbXMrA9-s?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "6'1\"",
-        "nickname": "THE COUNT"
+        "nickname": "THE COUNT",
+        "record": "30-9-0",
+        "defences": "1"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "GEORGES ST-PIERRE",
@@ -270,13 +339,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335659.png&w=350&h=254",
       "reign": "NOV 18, 2006 - APR 7 2007 AND DEC 29 2007 - NOV 4, 2017",
       "division": "MIDDLEWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/3RRMxTdnOEE?autoplay=1",
       "description": {
         "style": "STRIKER, WRESTLING",
         "stance": "ORTHODOX",
         "height": "5'10\"",
-        "nickname": "RUSH"
+        "nickname": "RUSH",
+        "record": "26-2-0",
+        "defences": "9"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "FRANCIS NGANNOU",
@@ -284,13 +357,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3933168.png&w=350&h=254",
       "reign": "MAY 27, 2021 - JAN 22, 2022",
       "division": "HEAVYWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/uODg16RHBks?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "6'4\"",
-        "nickname": "THE PREDATOR"
+        "nickname": "THE PREDATOR",
+        "record": "17-3-0",
+        "defences": "1"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "STIPE MIOCIC",
@@ -298,13 +375,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2504951.png&w=350&h=254",
       "reign": "MAY 14, 2016 - JUL 07 2018 AND AUG 17, 2019 - MAY 27, 2021",
       "division": "HEAVYWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/G1jf9cm9dik?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "6'4\"",
-        "nickname": "N/A"
+        "nickname": "N/A",
+        "record": "20-4-0",
+        "defences": "5"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "BRANDON MORENO",
@@ -312,13 +393,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3027545.png&w=350&h=254",
       "reign": "JUN 12, 2021 - JAN 22, 2022 AND JUL 30, 2022 - JAN 21, 2023",
       "division": "FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/Dch5M8jrxmU?autoplay=1",
       "description": {
         "style": "STRIKER, BRAZILLIAN JIU-JITSU",
         "stance": "ORTHODOX",
         "height": "5'7\"",
-        "nickname": "THE ASSASSIN BABY"
+        "nickname": "THE ASSASSIN BABY",
+        "record": "21-6-2",
+        "defences": "0"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "JOSE ALDO",
@@ -326,13 +411,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2447641.png&w=350&h=254",
       "reign": "NOV 18, 2009 - DEC 12, 2015 AND JUL 9 2016 - JUN 3, 2017 ",
       "division": "BANTAMWEIGHT",
+      "highlights": "https://www.youtube.com/embed/aW8C0c0m8jU?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "5'7\"",
-        "nickname": "JUNIOR"
+        "nickname": "JUNIOR",
+        "record": "31-8-0",
+        "defences": "9"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "PETR YAN",
@@ -340,13 +429,17 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4293517.png&w=350&h=254",
       "reign": "JUL 11, 2020 - MAR 6, 2021 AND OCT 30, 2021 AND APR 2022",
       "division": "BANTAMWEIGHT",
+      "highlights": "https://www.youtube.com/embed/WhAhURo9Lic?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "5'7\"",
-        "nickname": "NO MERCY"
+        "nickname": "NO MERCY",
+        "record": "16-4-0",
+        "defences": "0"
       },
-      "comments": []
+      "comments": [],
+      "likes": 0
     },
     {
       "name": "ALJAMAIN STERLING",
@@ -354,63 +447,267 @@
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3031559.png&w=350&h=254",
       "reign": "MAR 6, 2021 AND OCT 22,2022",
       "division": "WRESTLING, BRAZILLIAN JIU JITSU",
+      "highlights": "https://www.youtube.com/embed/1vQz_Qj986U?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "5'7\"",
-        "nickname": "FUNK MASTER"
+        "nickname": "FUNK MASTER",
+        "record": "22-3-0",
+        "defences": "2"
       },
-      "comments": []
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "backpack boy",
+          "timestamp": "2/16/2023 at 11:15AM"
+        }
+      ],
+      "likes": 0
     },
     {
       "name": "LEON EDWARDS ",
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3152929.png&w=350&h=254",
       "reign": "AUG 20, 2022 - PRESENT",
       "division": "WELTERWEIGHT",
+      "highlights": "https://www.youtube.com/embed/pnMGm0MRYt8?autoplay=1",
       "description": {
         "style": "STRIKER",
         "stance": "SOUTHPAW",
         "height": "6'2\"",
-        "nickname": "ROCKY"
+        "nickname": "ROCKY",
+        "record": "20-3-0",
+        "defences": "0"
       },
       "comments": [],
-      "id": 25
+      "id": 25,
+      "likes": 0
     },
     {
       "name": "TYRON WOODLEY",
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2501926.png&w=350&h=254",
       "reign": "JUL 30, 2016 - MAR 2, 2019",
       "division": "WELTERWEIGHT",
+      "highlights": "https://www.youtube.com/embed/fmHmpGhV0rY?autoplay=1",
       "description": {
         "style": "WRESTLING",
         "stance": "ORTHODOX",
         "height": "5'9\"",
-        "nickname": "THE CHOSEN ONE"
+        "nickname": "THE CHOSEN ONE",
+        "record": "19-7-1",
+        "defences": "4"
       },
       "comments": [],
-      "id": 26
+      "id": 26,
+      "likes": 0
     },
     {
       "name": "ALEX PEREIRA",
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4705658.png&w=350&h=254",
       "reign": "NOV 12, 2022 - PRESENT",
       "division": "MIDDLEWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/DWBaf5U6vQQ?autoplay=1",
       "description": {
         "style": "KICKBOXING",
         "stance": "ORTHODOX",
         "height": "6'4\"",
-        "nickname": "POATAN"
+        "nickname": "POATAN",
+        "record": "7-1-0",
+        "defences": "0"
       },
       "comments": [],
-      "id": 27
+      "id": 27,
+      "likes": 0
+    },
+    {
+      "name": "ROBERT WHITTAKER",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3009717.png&w=350&h=254",
+      "reign": "JULY 8, 2017 - OCT 5, 2019",
+      "division": "MIDDLEWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/dCK8hSSYb_A?autoplay=1",
+      "description": {
+        "style": "STRIKER",
+        "stance": "ORTHODOX",
+        "height": "6'0\"",
+        "nickname": "THE REAPER",
+        "record": "25-6-0",
+        "defences": "1"
+      },
+      "comments": [],
+      "id": 28,
+      "likes": 0
+    },
+    {
+      "name": "DEIVESON FIGUEIREDO",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4189320.png&w=350&h=254",
+      "reign": "FEB 29, 2020 - JUN 12, 2021 AND JAN 22, 2023 - JAN 21, 2023",
+      "division": "FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/gzETcvs5mTM?autoplay=1",
+      "description": {
+        "style": "WRESTLING",
+        "stance": "ORTHODOX",
+        "height": "5'5\"",
+        "nickname": "DEUS DA GUERRA",
+        "record": "21-3-1",
+        "defences": "2"
+      },
+      "comments": [],
+      "id": 29,
+      "likes": 0
+    },
+    {
+      "name": "CODY GARBRANT",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3163637.png&w=350&h=254",
+      "reign": "DEC-30, 2016 - NOV 04, 2017",
+      "division": "FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/g-BqDFLHHec?autoplay=1",
+      "description": {
+        "style": "WRESTLING",
+        "stance": "ORTHODOX",
+        "height": "5'8\"",
+        "nickname": "NO LOVE",
+        "record": "12-5-0",
+        "defences": "0"
+      },
+      "comments": [],
+      "id": 30,
+      "likes": 0
+    },
+    {
+      "name": "TJ DILLASHAW",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2611719.png&w=350&h=254",
+      "reign": "MAY 24, 2014 - JAN 17, 2016 AND JUL 4, 2017 - JAN 19, 2019 ",
+      "division": "FLYWEIGHT",
+      "highlights": "https://www.youtube.com/embed/lZDH-yvY0i8?autoplay=1",
+      "description": {
+        "style": "WRESTLING",
+        "stance": "ORTHODOX",
+        "height": "5'8\"",
+        "nickname": "NO LOVE",
+        "record": "12-5-0",
+        "defences": "4"
+      },
+      "comments": [],
+      "id": 31,
+      "likes": 0
+    },
+    {
+      "name": "RONDA ROUSEY",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2563796.png&w=350&h=254",
+      "reign": "MAR 3, 2012 - NOV 14, 2015",
+      "division": "WOMAN'S BANTAMWEIGHT",
+      "highlights": "https://www.youtube.com/embed/Q6-6Rq944i0?autoplay=1",
+      "description": {
+        "style": "BRAZILLIAN JIU JITSU",
+        "stance": "ORTHODOX",
+        "height": "5'7\"",
+        "nickname": "ROWDY",
+        "record": "12-2-0",
+        "defences": "7"
+      },
+      "comments": [],
+      "id": 32,
+      "likes": 0
+    },
+    {
+      "name": "JOANNA JEDRZEJCZYK",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3106617.png&w=350&h=254",
+      "reign": "MAR 14, 2015 - NOV 4, 2017",
+      "division": "WOMAN'S STRAWWEIGHT",
+      "highlights": "https://www.youtube.com/embed/tZeQoa_yfiA?autoplay=1",
+      "description": {
+        "style": "STRIKER",
+        "stance": "ORTHODOX",
+        "height": "5'6\"",
+        "nickname": "N/A",
+        "record": "16-5-0",
+        "defences": "7"
+      },
+      "comments": [],
+      "id": 33,
+      "likes": 0
+    },
+    {
+      "name": "ZHANG WEILI",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4350762.png&w=350&h=254",
+      "reign": "AUG 31, 2019 - APR 24, 2021",
+      "division": "WOMAN'S STRAWWEIGHT",
+      "highlights": "https://www.youtube.com/embed/iwpzT1QP2vY?autoplay=1",
+      "description": {
+        "style": "STRIKER",
+        "stance": "SWITCH",
+        "height": "5'4\"",
+        "nickname": "MAGNUM",
+        "record": "23-3-0",
+        "defences": "1"
+      },
+      "comments": [],
+      "id": 34,
+      "likes": 0
+    },
+    {
+      "name": "HENRY CEJUDO",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3023388.png&w=350&h=254",
+      "reign": "AUG 04, 2018 - MAY 09, 2020",
+      "division": "BANTAMWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/3HPrlutmc0U?autoplay=1",
+      "description": {
+        "style": "WRESTLING",
+        "stance": "ORTHODOX",
+        "height": "5'4\"",
+        "nickname": "THE MESSENGER",
+        "record": "16-2-0",
+        "defences": "3"
+      },
+      "comments": [],
+      "id": 35,
+      "likes": 0
+    },
+    {
+      "name": "DOMINICK CRUZ",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335888.png&w=350&h=254",
+      "reign": "MAY 06, 2010 -  JAN 2014 AND JAN 17, 2016 - DEC 30, 2016",
+      "division": "BANTAMWEIGHT ",
+      "highlights": "https://www.youtube.com/embed/udr8IM7OguU?autoplay=1",
+      "description": {
+        "style": "WRESTLING",
+        "stance": "ORTHODOX",
+        "height": "5'8\"",
+        "nickname": "THE DOMINATOR",
+        "record": "24-4-0",
+        "defences": "5"
+      },
+      "comments": [],
+      "id": 36,
+      "likes": 0
     }
   ],
-  "articles": [
+  "fighterPolls": [
     {
       "id": 1,
       "fighterId": 1,
-      "author": "Chris",
-      "content": "This is an article"
+      "text": "Yes",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "fighterId": 1,
+      "text": "No",
+      "votes": 0
+    },
+    {
+      "id": 3,
+      "fighterId": 1,
+      "text": "I don't know",
+      "votes": 0
+    }
+  ],
+  "feedbackPoll": [
+    {
+      "id": 1,
+      "yes": 7,
+      "no": 2,
+      "idk": 1
     }
   ]
 }

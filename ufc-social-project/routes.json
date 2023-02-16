@@ -1,4 +1,4 @@
 {
-    "/fighters/:id": "/fighters/:id?_embed=articles"
+    "/fighters/:id": "/fighters/:id?_embed=fighterPolls"
 }
   

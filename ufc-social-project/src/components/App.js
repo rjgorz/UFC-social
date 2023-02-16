@@ -6,6 +6,7 @@ import FighterContainer from './FighterContainer';
 import FighterForm from './FighterForm';
 import EditFighterForm from './EditFighterForm';
 import FighterPage from './FighterPage';
+import Feedback from './Feedback';
 
 function App() {
     const [fighters, setFighters] = useState([]);
@@ -52,9 +53,8 @@ function App() {
 
     return (
         <Container>
-            <Header />
+            <Header />            
             <Switch>
-
                 <Route exact path="/">
                     <FighterContainer className="fighter-container" fighterList={fetchFighters} search={search} setSearch={setSearch} sort={sort} setSort={setSort} />
                 </Route>
@@ -71,6 +71,9 @@ function App() {
                     <FighterForm handleNewFighter={handleNewFighter} />
                 </Route>
 
+                <Route path="/feedback">
+                    <Feedback />
+                </Route>
             </Switch>
         </Container>
     );

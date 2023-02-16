@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import Stats from './Stats';
 import Comments from './Comments';
-import Articles from './Articles';
+// import Articles from './Articles';
+import ModalPopup from './ModalPopup';
+import LeafPolls from './LeafPolls';
+// import ModalPoll from './ModalPoll';
 import { useParams, Link } from 'react-router-dom';
-import { Icon, Modal, Button, Image, Header } from 'semantic-ui-react';
+import { Icon, Button, Container } from 'semantic-ui-react';
 
 function FighterPage() {
     const date = new Date();
@@ -26,7 +30,9 @@ function FighterPage() {
     const [fighter, setFighter] = useState(null);
     const [fighterComments, setFighterComments] = useState([]);
     const [input, setInput] = useState(initialInput);
+    const [likes, setLikes] = useState(0);
     const [open, setOpen] = useState(false);
+    const [openPoll, setOpenPoll] = useState(false);
 
     const { id } = useParams();
 
@@ -35,21 +41,36 @@ function FighterPage() {
             .then(r => r.json())
             .then(fighter => {
                 setFighter(fighter);
+                setLikes(fighter.likes);
                 setFighterComments(fighter.comments);
             });
     }, [id]);
 
     if (fighter) {
-        const { name, image, division, reign, description, comments } = fighter;
-        const { style, stance, height, nickname } = description;
+        const { name, image, highlights, comments } = fighter;
+        
 
         function handleChanges(e) {
             setInput({ ...input, [e.target.name]: e.target.value });
         }
 
+        function handleLikes() {
+            fetch(`http://localhost:3001/fighters/${id}`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    likes: likes + 1
+                })
+            })
+                .then(r => r.json())
+                .then(fighter => {
+                    setLikes(fighter.likes);
+                });
+        }
+
         function handleComment(e) {
             e.preventDefault();
-  
+
             console.log(comments);
             const newComment = {
                 author: input.author,
@@ -74,40 +95,28 @@ function FighterPage() {
 
         return (
             <>
-                <section>
+                <div>
                     <div className='fighter-title'>
                         <h2>{name}</h2>
-                        <Link to={`/fighter/${id}/edit`}>
-                            <Icon id='edit-btn' name='edit' size='large' color='red' link />
-                        </Link>
+                        <div>
+                            <Icon id='like-btn' name='thumbs up outline' size='large' color='red' link onClick={handleLikes}>{likes}</Icon>
+                            <Link to={`/fighter/${id}/edit`}>
+                                <Icon id='edit-btn' name='edit' size='large' color='red' link />
+                            </Link>
+                            
+                        </div>
                         <img src={image} alt={name} />
-                        <Modal
-                            onClose={() => setOpen(false)}
-                            onOpen={() => setOpen(true)}
-                            open={open}
-                            trigger={<Button>Articles</Button>}
-                        >
-                            <Modal.Header>
-                                <Image size='small' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/2560px-UFC_Logo.svg.png' wrapped />
-                                <Header>{name}</Header>
-                            </Modal.Header>
-                            <Modal.Content>
-                                <Modal.Description>
-                                    <Header>ARTICLES</Header>
-                                    <Articles />
-                                </Modal.Description>
-                            </Modal.Content>
-                        </Modal>
                     </div>
                     <div className='fighter-details'>
-                        <p><em>Style: {style}</em></p>
-                        <p><em>Stance: {stance}</em></p>
-                        <p><em>Height: {height}</em></p>
-                        <p><em>Nickname: {nickname}</em></p>
-                        <h3>Division: {division}</h3>
-                        <h3>Title Reign: {reign}</h3>
+                        <Container>
+                            <Stats fighter={fighter} />
+                        </Container>
                     </div>
-                </section>
+                </div>
+                <Button.Group>
+                    <ModalPopup name={name} open={open} setOpen={setOpen} video={highlights} />
+                    <LeafPolls name={name} openPoll={openPoll} setOpenPoll={setOpenPoll} />
+                </Button.Group>
                 <Comments comments={fighterComments} author={input.author} comment={input.comment} timestamp={input.timestamp} handleChanges={handleChanges} handleComment={handleComment} />
                 <br />
             </>
