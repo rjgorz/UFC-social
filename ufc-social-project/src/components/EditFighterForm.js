@@ -8,15 +8,18 @@ function EditFighterForm({ onUpdateFighter }) {
         image: "",
         reign: "",
         division: "",
+        highlights: "",
         style: "",
         stance: "",
         height: "",
         nickname: "",
+        record: "",
+        defences: "",
     }
 
     const [input, setInput] = useState(initialInput);
 
-    const { name, image, reign, division, style, stance, height, nickname } = input;
+    const { name, image, reign, division, highlights, style, stance, height, nickname, record, defences } = input;
 
     const history = useHistory();
     const { id } = useParams();
@@ -30,10 +33,13 @@ function EditFighterForm({ onUpdateFighter }) {
                     image: fighter.image,
                     reign: fighter.reign,
                     division: fighter.division,
+                    highlights: fighter.highlights,
                     style: fighter.description.style,
                     stance: fighter.description.stance,
                     height: fighter.description.height,
                     nickname: fighter.description.nickname,
+                    record: fighter.description.record,
+                    defences: fighter.description.defences
                 });
             })
     }, [id])
@@ -53,11 +59,14 @@ function EditFighterForm({ onUpdateFighter }) {
                 image: input.image,
                 reign: input.reign,
                 division: input.division,
+                highlights: input.highlights,
                 description: {
                     style: input.style,
                     stance: input.stance,
                     height: input.height,
                     nickname: input.nickname,
+                    record: input.record,
+                    defences: input.defences
                 }
             })
         })
@@ -117,6 +126,17 @@ function EditFighterForm({ onUpdateFighter }) {
                 />
             </Form.Field>
             <Form.Field>
+                <label>Highlight Video: </label>
+                <input
+                    type="text"
+                    name="highlights"
+                    placeholder="Enter a Champion's Highlight Video..."
+                    className="input-text"
+                    onChange = {handleChanges}
+                    value = {highlights}
+                />
+            </Form.Field>
+            <Form.Field>
                 <label>Style: </label>
                 <input
                     type="text"
@@ -158,6 +178,28 @@ function EditFighterForm({ onUpdateFighter }) {
                     className="input-text"
                     onChange = {handleChanges}
                     value = {nickname}
+                />
+            </Form.Field>
+            <Form.Field>
+                <label>Record: </label>
+                <input
+                    type="text"
+                    name="record"
+                    placeholder="Enter a Champion's Record..."
+                    className="input-text"
+                    onChange = {handleChanges}
+                    value = {record}
+                />
+            </Form.Field>
+            <Form.Field>
+                <label>Defences: </label>
+                <input
+                    type="text"
+                    name="defences"
+                    placeholder="Enter a Champion's Title Defences..."
+                    className="input-text"
+                    onChange = {handleChanges}
+                    value = {defences}
                 />
             </Form.Field>
             <Button type="submit">Submit Changes</Button>

@@ -15,7 +15,7 @@ function FighterPage() {
     const day = date.getDate();
     let hour = date.getHours();
     let minutes = date.getMinutes();
-    const AMPM = hour > 12 ? 'PM' : 'AM';
+    const AMPM = hour >= 12 ? 'PM' : 'AM';
     hour = hour > 12 ? hour - 12 : hour;
     minutes = minutes < 10 ? `0${minutes}` : minutes;
 

@@ -11,9 +11,7 @@
         "style": "SAMBO",
         "stance": "ORTHODOX",
         "height": "5' 10\"",
-        "nickname": "THE EAGLE",
-        "record": "29-0-0",
-        "defences": "3"
+        "nickname": "THE EAGLE"
       },
       "comments": [
         {
@@ -35,9 +33,19 @@
           "author": "Robert",
           "comment": "I rule all.",
           "timestamp": "1/14/2023 at 2:35PM"
+        },
+        {
+          "author": "Chris ",
+          "comment": "Best fighter ever",
+          "timestamp": "2/17/2023 at 1:42PM"
+        },
+        {
+          "author": "Areeb",
+          "comment": "Ayeee",
+          "timestamp": "2/17/2023 at 2:06PM"
         }
       ],
-      "likes": 11,
+      "likes": 14,
       "fighterPolls": {
         "yes": 11
       }
@@ -99,7 +107,13 @@
         "record": "23-7-0",
         "defences": "3"
       },
-      "comments": [],
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "Volk owns him I fear",
+          "timestamp": "2/17/2023 at 1:07PM"
+        }
+      ],
       "likes": 0
     },
     {
@@ -153,7 +167,7 @@
         "defences": "7"
       },
       "comments": [],
-      "likes": 4,
+      "likes": 5,
       "id": 7
     },
     {
@@ -243,7 +257,13 @@
         "record": "22-6-0",
         "defences": "0"
       },
-      "comments": [],
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "Bro fell off!!!",
+          "timestamp": "2/17/2023 at 1:33PM"
+        }
+      ],
       "likes": 0
     },
     {
@@ -329,9 +349,7 @@
         "style": "STRIKER",
         "stance": "ORTHODOX",
         "height": "6'1\"",
-        "nickname": "THE COUNT",
-        "record": "30-9-0",
-        "defences": "1"
+        "nickname": "THE COUNT"
       },
       "comments": [],
       "likes": 0
@@ -448,16 +466,14 @@
       "name": "ALJAMAIN STERLING",
       "id": 24,
       "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3031559.png&w=350&h=254",
-      "reign": "MAR 6, 2021 AND OCT 22,2022",
-      "division": "WRESTLING, BRAZILLIAN JIU JITSU",
+      "reign": "MAR 6, 2021 - present",
+      "division": "BANTAMWEIGHT",
       "highlights": "https://www.youtube.com/embed/1vQz_Qj986U?autoplay=1",
       "description": {
-        "style": "STRIKER",
+        "style": "WRESTLING, BRAZILLIAN JIU JITSU",
         "stance": "ORTHODOX",
         "height": "5'7\"",
-        "nickname": "FUNK MASTER",
-        "record": "22-3-0",
-        "defences": "2"
+        "nickname": "FUNK MASTER"
       },
       "comments": [
         {
@@ -502,7 +518,7 @@
       },
       "comments": [],
       "id": 26,
-      "likes": 0
+      "likes": 1
     },
     {
       "name": "ALEX PEREIRA",
@@ -711,7 +727,7 @@
       "description": {
         "style": "INSTRUCTOR",
         "stance": "BBQ",
-        "height": "6' 4\"",
+        "height": "6' 5\"",
         "nickname": "GENTLE GIANT",
         "record": "185-1-0",
         "defences": "65"
@@ -748,10 +764,18 @@
         "style": "CAMBIO",
         "stance": "GOOFY",
         "height": "6' 7\"",
-        "nickname": "KING OF GAMES"
+        "nickname": "KING OF GAMES",
+        "record": "64-2-0",
+        "defences": "9"
       },
-      "comments": [],
-      "likes": 0,
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "His stance is serious. That's one dangerous man",
+          "timestamp": "2/17/2023 at 1:23PM"
+        }
+      ],
+      "likes": 16,
       "id": 40
     },
     {
@@ -764,13 +788,15 @@
         "style": "DARK ARTS",
         "stance": "KATANA",
         "height": "6'0\"",
-        "nickname": "HIMMY HENDRIX "
+        "nickname": "HIMMY HENDRIX ",
+        "record": "64-2-0",
+        "defences": "9"
       },
       "comments": [
         {
           "author": "Chris ",
           "comment": "Oh look it's only the greatest fighter to ever grace the octagon ",
-          "timestamp": "2/17/2023 at 12:27AM"
+          "timestamp": "2/17/2023 at 12:27PM"
         }
       ],
       "likes": 10,
@@ -790,7 +816,13 @@
         "record": "351-0-0",
         "defences": "29"
       },
-      "comments": [],
+      "comments": [
+        {
+          "author": "Anonymous",
+          "comment": "THIS GUY!",
+          "timestamp": "2/17/2023 at 12:41PM"
+        }
+      ],
       "likes": 111,
       "id": 42
     }
@@ -799,14 +831,14 @@
     {
       "id": 1,
       "fighterId": 1,
-      "yes": 72,
+      "yes": 73,
       "no": 48
     },
     {
       "id": 2,
       "fighterId": 2,
-      "yes": 1,
-      "no": 1
+      "yes": 23,
+      "no": 15
     },
     {
       "id": 3,
@@ -1032,7 +1064,7 @@
     },
     {
       "fighterId": 40,
-      "yes": 1,
+      "yes": 51,
       "no": 30,
       "id": 40
     },
@@ -1051,7 +1083,7 @@
   ],
   "feedbackPoll": {
     "id": 1,
-    "yes": 13,
-    "no": 2
+    "yes": 18,
+    "no": 3
   }
 }
