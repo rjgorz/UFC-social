@@ -164,3 +164,8 @@ ul {
   border: 2px red solid !important;
   color: red !important;
 }
+
+/* #root > div > div.ui.three.cards > div > img {
+  height: 259.06px;
+  overflow-y: hidden;
+} */

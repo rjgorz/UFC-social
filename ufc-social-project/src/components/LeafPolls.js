@@ -71,14 +71,14 @@ function LeafPolls ({ openPoll, setOpenPoll, name }) {
            <div className="fighter-poll">
             <br />
                 <div className="fighter-option">
-                    <Button content='Yes' onClick={handleYes} />
+                    <Button content='Vote Yes' onClick={handleYes} />
                     <div id="fighter-bar" style={bar1Style}>
                         <p style={{color: 'white'}}><strong><em>{Math.ceil(yesPercentage*100)}%</em></strong></p>
                     </div>
                 </div>
                 <br />
                 <div className="fighter-option">
-                    <Button content='No' onClick={handleNo} />
+                    <Button content='Vote No' onClick={handleNo} />
                     <div id="fighter-bar" style={bar2Style}>
                         <p style={{color: 'white'}}><strong><em>{Math.floor(noPercentage*100)}%</em></strong></p>
                     </div>

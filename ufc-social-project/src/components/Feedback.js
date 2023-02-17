@@ -59,14 +59,14 @@ function Feedback () {
             <h2>Is This the Best Phase 2 Project Ever?</h2>
             <br />
                 <div className="option">
-                    <Button content='Yes' onClick={handleYes} />
+                    <Button content='Vote Yes' onClick={handleYes} />
                     <div id="bar" style={bar1Style}>
                         <p style={{color: 'white'}}><strong><em>{Math.ceil(yesPercentage*100)}%</em></strong></p>
                     </div>
                 </div>
                 <br />
                 <div className="option">
-                    <Button content='No' onClick={handleNo} />
+                    <Button content='Vote No' onClick={handleNo} />
                     <div id="bar" style={bar2Style}>
                         <p style={{color: 'white'}}><strong><em>{Math.floor(noPercentage*100)}%</em></strong></p>
                     </div>
