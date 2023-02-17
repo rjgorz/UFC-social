@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { LeafPoll } from 'react-leaf-polls'
 import { Modal, Button, Image, Header } from 'semantic-ui-react';
 
 function LeafPolls ({ openPoll, setOpenPoll, name }) {
-
-    const [polls, setPolls] = useState([]);
-    const [pollAnswers, setPollAnswers] = useState([]);
+    const [bar1, setBar1] = useState(0);
+    const [bar2, setBar2] = useState(0);
 
     const { id } = useParams();
 
@@ -14,68 +12,92 @@ function LeafPolls ({ openPoll, setOpenPoll, name }) {
         fetch(`http://localhost:3001/fighters/${id}`)
             .then(r => r.json())
             .then(fighter => {
-                setPolls(fighter.fighterPolls)
-                // console.log(fighter.fighterPolls);
+                setBar1(fighter.fighterPolls[0].yes);
+                setBar2(fighter.fighterPolls[0].no);
             });
-    },[]);
-    console.log(polls);
-    console.log(polls[0]?.text);
+    }, [id]);
+
+    const totalVotes = bar1 + bar2;
+    const yesPercentage = (bar1/totalVotes);
+    const noPercentage = (bar2/totalVotes);
+    const width1 = yesPercentage * 1127;
+    const width2 = noPercentage * 1127;
     
-    
+    const bar1Style = {
+        width: `${width1}px`
+    }
+    const bar2Style = {
+        width: `${width2}px`
+    }
 
-    const handleVote = (voteAnswer) => {
-        setPollAnswers((pollAnswers) =>
-            pollAnswers.map((answer) =>
-            answer.option === voteAnswer
-                ? {
-                    ...answer,
-                    votes: answer.votes + 1
-                }
-                : answer
-            )
-        );
-    }     
+    function handleYes() {
+        fetch(`http://localhost:3001/fighterPolls/${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                yes: bar1 + 1
+            })
+        })
+        .then(r => r.json())
+        .then(fighter => setBar1(fighter.yes));
+    }
 
-    const pollQuestion = "Do you like this fighter?";
-    const answers = {
-        option: polls[0]?.text,
-        votes: polls[0]?.votes
-}; 
-
-    const pollOptions = polls.map((poll) => {
-        return (
-            <Modal.Group key = {poll.id}>
-                <Modal
-                   onClose={() => setOpenPoll(false)}
-                   onOpen={() => setOpenPoll(true)}
-                   open={openPoll}
-                   trigger={<Button className='poll-btn' content='Champion Poll' icon ="chart bar outline" />}
-                >
-                    <Modal.Header>
-                        <Image size='small' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/2560px-UFC_Logo.svg.png' wrapped />
-                        <Header>{name}</Header>
-                    </Modal.Header>
-                    <Modal.Content>
-                        <Modal.Description>
-                            <Header>FIGHTER POLL</Header>
-                            <LeafPoll
-                                question={pollQuestion}
-                                answers = {answers}
-                                onVote={handleVote}
-                            />
-                            <br />
-                        </Modal.Description>
-                    </Modal.Content>
-                </Modal> 
-            </Modal.Group>
-        )
-    })
-
+    function handleNo() {
+        fetch(`http://localhost:3001/fighterPolls/${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                no: bar2 + 1
+            })
+        })
+        .then(r => r.json())
+        .then(fighter => setBar2(fighter.no));
+    }
 
     return (
-        <div></div>
-        // {pollOptions}
-    );
+        <Modal
+            onClose={() => setOpenPoll(false)}
+            onOpen={() => setOpenPoll(true)}
+            open={openPoll}
+            trigger={<Button className='poll-btn' content='Champion Poll' icon ="chart bar outline" />}
+        >
+            <Modal.Header>
+                <Image size='small' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/2560px-UFC_Logo.svg.png' wrapped />
+                <Header>{name}</Header>
+            </Modal.Header>
+            <Modal.Content>
+            <Modal.Description>
+                    <Header>Do you like this Fighter?</Header>
+           <div className="fighter-poll">
+            <br />
+                <div className="fighter-option">
+                    <Button content='Yes' onClick={handleYes} />
+                    <div id="fighter-bar" style={bar1Style}>
+                        <p style={{color: 'white'}}><strong><em>{Math.ceil(yesPercentage*100)}%</em></strong></p>
+                    </div>
+                </div>
+                <br />
+                <div className="fighter-option">
+                    <Button content='No' onClick={handleNo} />
+                    <div id="fighter-bar" style={bar2Style}>
+                        <p style={{color: 'white'}}><strong><em>{Math.floor(noPercentage*100)}%</em></strong></p>
+                    </div>
+                </div> 
+            </div>
+           </Modal.Description>
+           </Modal.Content>
+           <Modal.Actions>
+            <Button
+                content="Close Window"
+                labelPosition='right'
+                icon='close'
+                color='red'
+                onClick={() => setOpenPoll(false)}
+                positive
+            />
+            </Modal.Actions>
+        </Modal>
+        );
 }
 
 export default LeafPolls;

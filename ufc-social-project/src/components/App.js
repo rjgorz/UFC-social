@@ -12,11 +12,15 @@ function App() {
     const [fighters, setFighters] = useState([]);
     const [search, setSearch] = useState("");
     const [sort, setSort] = useState(false);
+    const [numFighters, setNumFighters] = useState(0);
 
     useEffect(() => {
         fetch('http://localhost:3001/fighters')
             .then(r => r.json())
-            .then(fighterData => setFighters(fighterData));
+            .then(fighterData => {
+                setFighters(fighterData);
+                setNumFighters(fighterData.length);
+            });
     }, []);
 
     let fetchFighters = fighters.filter(fighter => fighter.name.toLowerCase().includes(search.toLowerCase()));
@@ -68,7 +72,7 @@ function App() {
                 </Route>
 
                 <Route path="/form">
-                    <FighterForm handleNewFighter={handleNewFighter} />
+                    <FighterForm handleNewFighter={handleNewFighter} numFighters={numFighters} setNumFighters={setNumFighters} />
                 </Route>
 
                 <Route path="/feedback">

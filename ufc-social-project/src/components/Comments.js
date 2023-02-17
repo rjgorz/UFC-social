@@ -51,6 +51,7 @@ function Comments({ comments, author, comment, handleChanges, handleComment }) {
                     />
                 </Form.Field>
                 <Button id='comment-btn' type='submit' color='red' content='Comment' labelPosition='left' icon='plus' primary disabled={author==="" || comment==="" ? true : false} />
+                <br />
             </Form>
         </Comment.Group>
     );

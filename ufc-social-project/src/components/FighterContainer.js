@@ -27,7 +27,6 @@ function FighterContainer({ fighterList, search, setSearch, sort, setSort }) {
 
     function handlePage(e) {
         setEndArray((e.target.getAttribute('value') * 9));
-        // console.log(localStorage.getItem('page'));
     }
 
     function handleCheck() {

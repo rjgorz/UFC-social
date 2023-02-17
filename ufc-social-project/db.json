@@ -37,7 +37,10 @@
           "timestamp": "1/14/2023 at 2:35PM"
         }
       ],
-      "likes": 9
+      "likes": 11,
+      "fighterPolls": {
+        "yes": 11
+      }
     },
     {
       "name": "CHARLES OLIVEIRA",
@@ -61,7 +64,7 @@
           "timestamp": "2/16/2023 at 9:23AM"
         }
       ],
-      "likes": 4
+      "likes": 13
     },
     {
       "name": "KAMARU USMAN",
@@ -150,7 +153,7 @@
         "defences": "7"
       },
       "comments": [],
-      "likes": 0,
+      "likes": 4,
       "id": 7
     },
     {
@@ -313,7 +316,7 @@
         "defences": "10"
       },
       "comments": [],
-      "likes": 0
+      "likes": 6
     },
     {
       "name": "MICHAEL BISPING",
@@ -680,34 +683,377 @@
       "comments": [],
       "id": 36,
       "likes": 0
+    },
+    {
+      "name": "GEHRIG BARNES",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U03P08HJ406-5eb4eefd7a7f-512",
+      "reign": "JAN 2023 - FEB 2023",
+      "division": "WEEB",
+      "highlights": "https://www.youtube.com/embed/GqXtYsZu4GI?autoplay=1",
+      "description": {
+        "style": "COACH",
+        "stance": "FLEXIBLE",
+        "height": "5' 6\"",
+        "nickname": "DRIPPY G",
+        "record": "999-0-0",
+        "defences": "YES"
+      },
+      "comments": [],
+      "likes": 10,
+      "id": 37
+    },
+    {
+      "name": "TYLER TAYLOR",
+      "image": "https://media.discordapp.net/attachments/1064914343982018620/1076192190813962290/image.png?width=632&height=671",
+      "reign": "JAN 2023 - APR 2023",
+      "division": "TEXAS",
+      "highlights": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      "description": {
+        "style": "INSTRUCTOR",
+        "stance": "BBQ",
+        "height": "6' 4\"",
+        "nickname": "GENTLE GIANT",
+        "record": "185-1-0",
+        "defences": "65"
+      },
+      "comments": [],
+      "likes": 0,
+      "id": 38
+    },
+    {
+      "name": "ELEANOR KELMAN",
+      "image": "https://media.discordapp.net/attachments/1064914343982018620/1076192171495006258/image.png?width=632&height=671",
+      "reign": "JAN 2023 - APR 2023",
+      "division": "SQUISHMALLOW",
+      "highlights": "https://www.youtube.com/embed/8zrF01hx3LA?autoplay=1",
+      "description": {
+        "style": "INSTRUCTOR",
+        "stance": "NO GUM",
+        "height": "5' 7\"",
+        "nickname": "QUIDDITCH QUEEN",
+        "record": "64-2-0",
+        "defences": "9"
+      },
+      "comments": [],
+      "likes": 0,
+      "id": 39
+    },
+    {
+      "name": "AREEB KARIM",
+      "image": "https://cdn.discordapp.com/attachments/1064914343982018620/1076187304164589628/IMG_5909.png",
+      "reign": "DECEMBER 1999 - PRESENT",
+      "division": "AVALON",
+      "highlights": "https://www.youtube.com/embed/FzsZmKi4dk8?autoplay=1",
+      "description": {
+        "style": "CAMBIO",
+        "stance": "GOOFY",
+        "height": "5' 11\"",
+        "nickname": "KING OF GAMES",
+        "record": "34-2-1",
+        "defences": "4"
+      },
+      "comments": [],
+      "likes": 0,
+      "id": 40
+    },
+    {
+      "name": "CHRIS CHOUTE",
+      "image": "https://cdn.discordapp.com/attachments/1064914343982018620/1076189001595232287/image0.jpg",
+      "reign": "JUN 18, 1999 - PRESENT",
+      "division": "COOL GUYS",
+      "highlights": "https://www.youtube.com/embed/dcYtIM_XqnQ?autoplay=1",
+      "description": {
+        "style": "DARK ARTS",
+        "stance": "KATANA",
+        "height": "6'0\"",
+        "nickname": "HIMMY HENDRIX "
+      },
+      "comments": [
+        {
+          "author": "Chris ",
+          "comment": "Oh look it's only the greatest fighter to ever grace the octagon ",
+          "timestamp": "2/17/2023 at 12:27AM"
+        }
+      ],
+      "likes": 10,
+      "id": 41
+    },
+    {
+      "name": "ROBERT GORZ",
+      "image": "https://cdn.discordapp.com/attachments/1064914343982018620/1076189079319892090/10399471_1189277255030_4100572_n.png",
+      "reign": "NOVEMBER 1993 - PRESENT",
+      "division": "ELITE CODER",
+      "highlights": "https://www.youtube.com/embed/gIOyB9ZXn8s?autoplay=1",
+      "description": {
+        "style": "DAD",
+        "stance": "FROZEN IS ACTUALLY COOL",
+        "height": "5' 11\"",
+        "nickname": "THE RIZZARD",
+        "record": "351-0-0",
+        "defences": "29"
+      },
+      "comments": [],
+      "likes": 111,
+      "id": 42
     }
   ],
   "fighterPolls": [
     {
       "id": 1,
       "fighterId": 1,
-      "text": "Yes",
-      "votes": 0
+      "yes": 72,
+      "no": 48
     },
     {
       "id": 2,
-      "fighterId": 1,
-      "text": "No",
-      "votes": 0
+      "fighterId": 2,
+      "yes": 1,
+      "no": 1
     },
     {
       "id": 3,
-      "fighterId": 1,
-      "text": "I don't know",
-      "votes": 0
+      "fighterId": 3,
+      "yes": 7,
+      "no": 5
+    },
+    {
+      "id": 4,
+      "fighterId": 4,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 5,
+      "fighterId": 5,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 6,
+      "fighterId": 6,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 7,
+      "fighterId": 7,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 8,
+      "fighterId": 8,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 9,
+      "fighterId": 9,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 10,
+      "fighterId": 10,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 11,
+      "fighterId": 11,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 12,
+      "fighterId": 12,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 13,
+      "fighterId": 13,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 14,
+      "fighterId": 14,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 15,
+      "fighterId": 15,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 16,
+      "fighterId": 16,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 17,
+      "fighterId": 17,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 18,
+      "fighterId": 18,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 19,
+      "fighterId": 19,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 20,
+      "fighterId": 20,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 21,
+      "fighterId": 21,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 22,
+      "fighterId": 22,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 23,
+      "fighterId": 23,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 24,
+      "fighterId": 24,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 25,
+      "fighterId": 25,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 26,
+      "fighterId": 26,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 27,
+      "fighterId": 27,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 28,
+      "fighterId": 28,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 29,
+      "fighterId": 29,
+      "yes": 2,
+      "no": 3
+    },
+    {
+      "id": 30,
+      "fighterId": 30,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 31,
+      "fighterId": 31,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 32,
+      "fighterId": 32,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 33,
+      "fighterId": 33,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 34,
+      "fighterId": 34,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 35,
+      "fighterId": 35,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "id": 36,
+      "fighterId": 36,
+      "yes": 1,
+      "no": 1
+    },
+    {
+      "fighterId": 37,
+      "yes": 108,
+      "no": 1,
+      "id": 37
+    },
+    {
+      "fighterId": 38,
+      "yes": 1,
+      "no": 1,
+      "id": 38
+    },
+    {
+      "fighterId": 39,
+      "yes": 1,
+      "no": 1,
+      "id": 39
+    },
+    {
+      "fighterId": 40,
+      "yes": 1,
+      "no": 30,
+      "id": 40
+    },
+    {
+      "fighterId": 41,
+      "yes": 5,
+      "no": 1,
+      "id": 41
+    },
+    {
+      "fighterId": 42,
+      "yes": 167,
+      "no": 4,
+      "id": 42
     }
   ],
-  "feedbackPoll": [
-    {
-      "id": 1,
-      "yes": 7,
-      "no": 2,
-      "idk": 1
-    }
-  ]
+  "feedbackPoll": {
+    "id": 1,
+    "yes": 13,
+    "no": 2
+  }
 }

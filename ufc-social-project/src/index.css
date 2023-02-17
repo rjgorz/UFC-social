@@ -1,3 +1,8 @@
+#root {
+  min-width: 1000px;
+  overflow: auto;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -61,7 +66,11 @@ ul {
   text-align: left;
   display: inline-grid;
   width: max-content;
-  margin-top: 50px;
+  margin: 50px 25px 0 0;
+}
+
+.fighter-title img {
+  width: 350px;
 }
 
 .fighter-details {
@@ -101,5 +110,57 @@ ul {
 }
 
 #like-btn {
-  margin-right: 80%;
+  margin-right: 84.857%;
+}
+
+.poll {
+  width: 1127px;
+  text-align: center;
+}
+.option {
+  display: flex;
+}
+
+.option > button {
+  min-width: 75px;
+}
+
+#bar {
+  background-color: rgb(255, 0, 0);
+  border: 2px rgba(255, 0, 0, 0.5) solid;
+  border-radius: 5px;
+  max-width: 1127px;
+  transition: width .5s;
+}
+
+.fighter-poll {
+  width: 1127px;
+  text-align: center;
+}
+.fighter-option {
+  display: flex;
+}
+
+.fighter-option > button {
+  min-width: 75px;
+}
+
+#fighter-bar {
+  background-color: rgb(255, 0, 0);
+  border: 2px rgba(255, 0, 0, 0.5) solid;
+  border-radius: 5px;
+  max-width: 73.5%;
+  transition: width .5s;
+}
+
+#root > div > form > button {
+  color: white;
+  background-color: red !important;
+  border: 2px white solid !important;
+}
+
+#root > div > form > button:hover {
+  background-color: white !important;
+  border: 2px red solid !important;
+  color: red !important;
 }

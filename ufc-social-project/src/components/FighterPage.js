@@ -108,7 +108,7 @@ function FighterPage() {
                         <img src={image} alt={name} />
                     </div>
                     <div className='fighter-details'>
-                        <Container>
+                        <Container id="stat-container">
                             <Stats fighter={fighter} />
                         </Container>
                     </div>
