@@ -1,3 +1,25 @@
+The UFC Fighter Website is an interactive web application designed and developed to provide UFC fans with a visually appealing and user-friendly interface to explore and compare fighter statistics. Whether you're a hardcore UFC enthusiast or just getting into the sport, this website offers a comprehensive platform to learn about your favorite fighters.
+
+**Features**
+**Fighter Statistics:** Access detailed fighter statistics, including records, weight classes, and fight history.
+
+**Search Functionality:** Utilize the powerful search bar to quickly find your favorite fighters.
+
+**Fighter Cards:** View fighter profiles in a visually engaging format, complete with images and key information.
+
+**Video Highlights:** Watch video highlights of memorable fights and moments in the UFC.
+
+**Pagination:** Navigate through a large list of fighters with ease, thanks to the pagination feature.
+
+**Responsive Design:** Enjoy a seamless experience on both desktop and mobile devices.
+
+**Technologies Used**
+**Front-end:**
+React.js for building the user interface
+React Hooks for state management and creating reusable components
+React Router for client-side routing and page navigation
+Semantic UI CSS for a modern and user-friendly design
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
